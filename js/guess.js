@@ -22,8 +22,8 @@ function load() {
     goalNumber = randomFunc(min, max);
     console.log(goalNumber);
     countAttempts = attempts;
-    document.getElementById('item__helloLbl').innerHTML = `Привет, я загадал число от ${min} до ${max} вашего диапазона.
-                Попробуй угадать его за ${countAttempts} попыток!`;
+    document.getElementById('item__helloLbl').innerHTML = `Привет, я загадал число от ${min} до ${max} вашего диапазона.`;
+    document.getElementById('item__helloLb2').innerHTML = `Попробуй угадать его за ${countAttempts} попыток!`;
 }
 document.addEventListener('DOMContentLoaded', load);
 function gameGuess() {

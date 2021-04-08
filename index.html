@@ -4,23 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
     <title>Document</title>
 </head>
 <body>
     <div class="item">
-        <div class="item-main">
-            <div class="item-row">
-                <label>Введите кол-во попыток</label>
-                <input id="item__attempts" type=number min=1 max=15>
-            </div>
-            <div class="item-row">
-                <label>Диапазон чисел:</label>
-                <input id="item__minValue" type=number min=1 max=200>
-                <input  id="item__maxValue" type=number min=1 max=200>
-            </div>
-            <div class="item-row">
-                <button id="item__btnGenerate">Generation</button>
-                <button id="item__btnDefault">Start Default</button>
+        <div class="item-image">
+            <img src="img/01.png" alt="" class="image">
+            <div class="item-main">
+                <div class="item-row">
+                    <div>
+                        <label>Введите количество попыток</label>
+                    </div>
+                    <div>
+                        <input id="item__attempts" type=number min=1 max=15>
+                    </div>
+                </div>
+                <div class="item-row">
+                    <div>
+                        <label>Диапазон чисел:</label>
+                    </div>
+                    <div>
+                        <input id="item__minValue" type=number min=1 max=200>
+                        <input id="item__maxValue" type=number min=1 max=200>
+                    </div>
+                </div>
+                <div class="item-row">
+                    <button id="item__btnGenerate">Generation</button>
+                    <button id="item__btnDefault">Start Default</button>
+                </div>
             </div>
         </div>
     </div>
